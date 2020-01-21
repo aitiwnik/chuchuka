@@ -10,7 +10,7 @@ import { Button } from '../../newComponents/button'
 import { Form } from '../../newComponents/form'
 import { Input } from '../../newComponents/input'
 
-const Login = () => {
+export const Login = () => {
   const dispatch = useDispatch()
 
   const [state, updateState] = useState({
@@ -49,5 +49,3 @@ const Login = () => {
     </div>
   )
 }
-
-export default Login
