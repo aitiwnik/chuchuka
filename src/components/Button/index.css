@@ -1,0 +1,19 @@
+.button-container {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+
+  max-width: 200px;
+  padding: 45px 55px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .button-container {
+    padding: 30px;
+  }
+}

@@ -1,0 +1,63 @@
+.app-container {
+  max-width: 900px;
+  margin-top: 85px;
+}
+
+.input-container {
+  max-width: 500px;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    margin-top: 20px;
+  }
+}
+
+h1, h3, h4, input {
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Tiempos Headline;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 155px;
+  font-size: 36px;
+}
+
+h4 {
+  margin-top: 240px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+input {
+  font-size: 48px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+span {
+  font-size: 18px;
+}
+
+/* Helpers */
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
